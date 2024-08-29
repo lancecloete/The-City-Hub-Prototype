@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Suppliers - The City Hub</title>
+  <title>Login - The City Hub</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -29,15 +29,19 @@
   </nav>
 
   <div class="container mt-5">
-    <h1>Suppliers</h1>
-    <p>Explore our list of local suppliers who provide quality products.</p>
-    <ul>
-      <li>Supplier A - Organic Produce</li>
-      <li>Supplier B - Dairy Products</li>
-      <li>Supplier C - Grains and Pulses</li>
-      <li>Supplier D - Fresh Meat</li>
-      <li>Supplier E - Local Crafts</li>
-    </ul>
+    <h1>Login</h1>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <p class="mt-3">Don't have an account? <a href="signup.html">Sign up here</a></p>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
